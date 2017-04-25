@@ -2,7 +2,6 @@
 body{
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 15px;
-      margin-top: 80px;
       text-align: justify;
 }
 h1,h2,h3,h4,h5,h6{
@@ -36,10 +35,29 @@ p::selection { background-color:#ffb153; color: #fff; }
     background-color: transparent;
 }
 
-.container {
-    width: 1170px;
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+	.container  {
+		width: 750px;
+	}
 }
-.sliders{}
+
+/* Medium devices (desktops, tablets, 992px and up) */
+@media (min-width:992px) {
+	.container {
+		width: 970px;
+	}
+}
+
+/* Large devices (Large desktops 1200px and up) */
+@media (min-width:1200px) {
+	.container {
+		width: 1170px;
+	}
+}
+.main-content{
+    margin-top: 80px;
+}
 .intro > h3{
     text-align: center;
     padding-bottom: 20px;
@@ -75,4 +93,24 @@ p::selection { background-color:#ffb153; color: #fff; }
     font-size: 12px;
     background: radial-gradient(circle farthest-side, #e7e7e7,#f1f1f1);
     
+}
+
+.team{
+    overflow:hidden;
+    padding: 20px;
+    max-height: 350px;
+}
+.team-member{
+    max-height: 250px;
+}
+.image-box {
+    background-color: #fafafa;
+    border: 1px solid #f3f3f3;
+}
+.overlay-container {
+    display: block;
+    overflow: hidden;
+}
+.image-box-body {
+    padding: 20px 15px 15px;
 }
