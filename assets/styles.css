@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 15px;
+      margin-top: 80px;
+      text-align: justify;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #ff900a;
+}
+a{
+    color: #ff900a;
+}
+a:hover{
+    color: #ffb153;
+}
+p::-moz-selection { background-color:#ffb153; color: #fff; }
+p::selection { background-color:#ffb153; color: #fff; }
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7;
+    height: 80px;
+    vertical-align: middle;
+}
+.navbar-brand{
+    padding-right: 80px;
+}
+.navbar-default .navbar-nav>li>a {
+    padding: 30px 20px;
+    font-size: 20px;
+    color: #ff900a;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffb153;
+    background-color: transparent;
+}
+
+.container {
+    width: 1170px;
+}
+.sliders{}
+.intro > h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.call-to-action{
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 40px 0px;
+    background: radial-gradient(circle farthest-side,#52c8e6,#098fa8);
+    text-align: center;
+}
+.call-to-action h1,
+.call-to-action h2,
+.call-to-action h3,
+.call-to-action h4,
+.call-to-action h5,
+.call-to-action h6{
+    color: #fff;
+}
+.btn-white {
+    background-color: #ff900a;
+    color: #fff;
+    border: 1px solid #ff900a;
+}
+.btn-white:hover {
+    color: #333333;
+    background-color: #fafafa;
+    border-color: #ff900a;
+}
+
+.footer{
+    margin: 20px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    font-size: 12px;
+    background: radial-gradient(circle farthest-side, #e7e7e7,#f1f1f1);
+    
+}
