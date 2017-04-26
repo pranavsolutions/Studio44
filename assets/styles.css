@@ -16,6 +16,37 @@ a:hover{
 p::-moz-selection { background-color:#ffb153; color: #fff; }
 p::selection { background-color:#ffb153; color: #fff; }
 
+.ml-sm{
+    margin-left: 10px;
+}
+.ml-md{
+    margin-left: 20px;
+}
+.ml-lg{
+    margin-left: 40px;
+}
+.ml-exl{
+    margin-left: 80px;
+}
+.mb-sm{
+    margin-bottom: 10px;
+}
+.mb-md{
+    margin-bottom: 210px;
+}
+.mb-lg{
+    margin-bottom: 40px;
+}
+.mb-exl{
+    margin-bottom: 80px;
+}
+.bb{
+    border-bottom: dashed 1px gray; 
+}
+.nbb{
+    border-bottom: 0px !important;
+}
+
 .navbar-default {
     background-color: #fff;
     border-color: #e7e7e7;
@@ -98,6 +129,11 @@ p::selection { background-color:#ffb153; color: #fff; }
     text-align: center;
 }
 
+.page-banner{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 .team{
     overflow:hidden;
     padding: 20px;
@@ -126,6 +162,26 @@ p::selection { background-color:#ffb153; color: #fff; }
 .list > li {
     margin-top: 10px;
 }
+.service-list{
+    list-style: none;
+    padding: 0;
+}
+.service-list > li {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    border-bottom: dashed 1px #777;
+}
+.service-list .muted {
+    border-bottom: 0px !important;
+    margin-top: 0px;
+    text-transform: lowercase;
+    font-size: 13px;
+    color: #777;
+}
+
 #map {
         width: 100%;
         height: 400px;
