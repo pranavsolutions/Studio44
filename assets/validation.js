@@ -12,7 +12,7 @@
             var email = $('#email').val();
 			var phone = $('#phone').val();
             var message = $('#message').val();
-			
+
 			$('#name,#email,#phone,#message').click(function(){
 				$(this).removeClass("error_input");
 			});
@@ -55,28 +55,36 @@
             }else{
                 $('#message').removeClass("error_input");
             }
-            
+
             // If there is no validation error, next to process the mail function
             if(error == false){
                // Disable submit button just after the form processed 1st time successfully.
                 $('#send_message').attr({'disabled' : 'true', 'value' : 'Sending...' });
-                
+
 				/* Post Ajax function of jQuery to get all the data from the submission of the form as soon as the form sends the values to email.php*/
                 $.post("email.php", $("#contact_form").serialize(),function(result){
                     //Check the result set from email.php file.
-                    $('#mail_success').attr({'display' : 'none'});
-                    $('#mail_fail').attr({'display' : 'none'});
+                    $("#mail_success").hide();
+                    $("#mail_fail").hide();
 
                     if(result == 'sent'){
-                        //If the email is sent successfully, remove the submit button
-                         $('#submit').remove();
+                        
+                        // Enable the submit button again
+                        $('#send_message').removeAttr('disabled').attr('value', 'Send Message');
+                        
                         //Display the success message
-                        $('#mail_success').attr({'display' : 'inherit'});
+                        $("#mail_success").show();
+
+                        //Reset Values
+                        $('#name').val('');
+                        $('#email').val('');
+                        $('#phone').val('');
+                        $('#message').val('');
                     }else{
                         //Display the error message
-                        $('#mail_fail').attr({'display' : 'inherit'});
+                        $("#mail_fail").show();
                         // Enable the submit button again
-                        $('#send_message').removeAttr('disabled').attr('value', 'Send The Message');
+                        $('#send_message').removeAttr('disabled').attr('value', 'Send Message');
                     }
                 });
             }

@@ -55,6 +55,7 @@
       </div>
 </nav>
 <div class="main-content">
+      <img id="page-banner" class="page-banner" src="assets/images/s6-groom-wedding-makeup-chennai.jpg" alt="Contact best Men's salon spa in chennai'">
       <div class="container">
             <div class="row">
                   <div class="col-md-3">
@@ -62,9 +63,12 @@
                   </div>
                   <div class="col-md-6">
                         <h3>Send us a Message</h3>
-                        <div id='validation_error' class='errormsg' style="display: none;">All the fields are required. Please fill all the information and try again.</div>
-                        <div id='email_error' class='errormsg' style="display: none;">Enter a valid email id.</div>
-                        
+                        <div style="margin-top:20px;margin-bottom:20px;">
+                              <div id='validation_error' class='errormsg' style="display: none;">All the fields are required. Please fill all the information and try again.</div>
+                              <div id='email_error' class='errormsg' style="display: none;">Enter a valid email id.</div>
+                              <span id='mail_success' style="display: none; color:#5cb85c;">Your message has been sent successfully. We will get in touch with you shortly.</span>
+                              <span id='mail_fail' style="display: none; color:red;">Sorry, something went wrong. try again or send us an email at velachery@s44.in</span>
+                        </div>
                         <form name="contactForm" id='contact_form' class="deform-1" method="post" action='email.php'>
                             <div class="row">
                                 <div class="col-md-12">
@@ -91,10 +95,8 @@
 
                                 <div class="col-md-12 text-center">
                                     <p id='submit'>
-                                        <input type='submit' id='send_message' value='Submit Form' class="btn btn-custom">
+                                        <input type='submit' id='send_message' value='Send Message' class="btn btn-custom">
                                     </p>
-                                    <div id='mail_success' class='success' style="display: none; ">Your message has been sent successfully.</div>
-                                    <div id='mail_fail' class='error' style="display: none; ">Sorry, error occured this time sending your message.</div>
                                 </div>
                             </div>
                         </form>

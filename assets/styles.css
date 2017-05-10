@@ -17,11 +17,6 @@ a:hover{
 }
 p::-moz-selection { background-color:#ffb153; color: #fff; }
 p::selection { background-color:#ffb153; color: #fff; }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of 0fcf205... Added wedding and service pages
 .navbar-default {
     background-color: #fff;
     border-color: #e7e7e7;
@@ -40,8 +35,18 @@ p::selection { background-color:#ffb153; color: #fff; }
     color: #ffb153;
     background-color: transparent;
 }
-
+.container{
+    margin-bottom: 80px;
+}
 /* Small devices (tablets, 768px and up) */
+@media (max-width: 400px) {
+  /* define mobile specific styles come here */
+  .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover {
+        color: #ffb153;
+        background-color: #777;
+    }
+}
+
 @media (min-width:768px) {
 	.container  {
 		width: 750px;
@@ -142,10 +147,28 @@ p::selection { background-color:#ffb153; color: #fff; }
     list-style: none;
     padding: 0;
 }
-
 .list > li {
     margin-top: 10px;
 }
+.service-list{
+     list-style: none;
+     padding: 0;
+ }
+ .service-list > li {
+     margin-top: 10px;
+     font-size: 15px;
+     font-weight: bold;
+     color: #333;
+     text-transform: uppercase;
+     border-bottom: dashed 1px #777;
+ }
+ .service-list .muted {
+     border-bottom: 0px !important;
+     margin-top: 0px;
+     text-transform: lowercase;
+     font-size: 13px;
+     color: #777;
+ }
 #map {
         width: 100%;
         height: 400px;
@@ -168,4 +191,7 @@ p::selection { background-color:#ffb153; color: #fff; }
 }
 .errormsg{
     color: red;
+}
+.page-banner{
+    width: 100%;
 }
