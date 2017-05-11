@@ -2,6 +2,20 @@
 /***************Margin***************/
 /*************************************/
 
+/*Margin*/
+.m-sm{
+    margin: 10px;
+}
+.m-md{
+    margin: 20px;
+}
+.m-lg{
+    margin: 40px;
+}
+.m-xl{
+    margin: 80px;
+}
+
 /*Margin top*/
 .mt-sm{
     margin-top: 10px;
@@ -63,6 +77,20 @@
 /*************************************/
 /***************PADDING***************/
 /*************************************/
+/*Padding*/
+.p-sm{
+    padding: 10px;
+}
+.p-md{
+    padding: 20px;
+}
+.p-lg{
+    padding: 40px;
+}
+.p-xl{
+    padding: 80px;
+}
+
 /*Padding top*/
 .pt-sm{
     padding-top: 10px;
