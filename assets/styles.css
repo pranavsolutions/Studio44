@@ -169,6 +169,10 @@ p::selection { background-color:#ffb153; color: #fff; }
      font-size: 13px;
      color: #777;
  }
+ .service-price{
+     font-size: 14px;
+     float: right;
+ }
 #map {
         width: 100%;
         height: 400px;
