@@ -15,6 +15,7 @@ a{
 a:hover{
     color: #ffb153;
 }
+
 p::-moz-selection { background-color:#ffb153; color: #fff; }
 p::selection { background-color:#ffb153; color: #fff; }
 .navbar-default {
@@ -198,4 +199,51 @@ p::selection { background-color:#ffb153; color: #fff; }
 }
 .page-banner{
     width: 100%;
+}
+
+.quote {
+    flex: 49% 0 0;
+    margin: 0 0 30px;
+    position: relative;
+    border-radius: 4px;
+    background: #f6f9fa;
+    color: #7b8b8e;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    height: 100%;
+}
+
+.quote-text {
+    font-size: 14px;
+    padding: 10px;
+}
+.quote-text p {
+    margin: 0;
+    color: #676c76;
+}
+
+.quote-bio {
+    position: relative;
+    padding: 10px;
+    border-top: 1px solid #fff;
+}
+.quote-bio span {
+    color: #191c22;
+    font-weight: 600;
+}
+.quote-bio p {
+    font-style: normal;
+    margin: 0;
+}
+.quote-social{
+    float: right;
+    position: absolute;
+    top: 25px;
+    right:25px;
+}
+.quote-social a{
+    color: #191c22;
+    font-size: 25px;
+    font-weight: 600;
 }
