@@ -9,6 +9,11 @@ body{
 h1,h2,h3,h4,h5,h6{
     color: #ff900a;
 }
+ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
 a{
     color: #ff900a;
 }
@@ -247,3 +252,43 @@ p::selection { background-color:#ffb153; color: #fff; }
     font-size: 25px;
     font-weight: 600;
 }
+
+
+
+
+
+#sticky-social {
+   right: 0;
+   position: fixed;
+   top: 30%;
+   z-index: 10;
+}
+#sticky-social a {
+   background: #ff900a;
+   color: #fff;
+   display: block;
+   height: 35px;
+   font: 16px "Open Sans", sans-serif;
+   line-height: 35px;
+   position: relative;
+   text-align: center;
+   width: 35px;
+}
+#sticky-social a span {
+   line-height: 35px;
+   left: -120px;
+   position: absolute;
+   text-align:center;
+   width:120px;
+}
+#sticky-social a:hover span {
+   left: 100%;
+   color:#f1f1f1;
+}
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span { background: #3b5998; }
+
+#sticky-social a[class*="gplus"],
+#sticky-social a[class*="gplus"]:hover,
+#sticky-social a[class*="gplus"] span { background: #dd4b39; }  
