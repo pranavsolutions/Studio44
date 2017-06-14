@@ -18,6 +18,21 @@
     font-size: 24px;
 }
 
+/*************************************/
+/***************Visibility***************/
+/*************************************/
+.v-iv{
+    visibility: hidden !important;
+}
+.v-v{
+    visibility: visible !important;
+}
+.v-h{
+    display: none !important;
+}
+.v-s{
+    display: inherit !important;
+}
 
 /*************************************/
 /***************Margin***************/
