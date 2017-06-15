@@ -20,6 +20,10 @@ a{
 a:hover{
     color: #ffb153;
 }
+abbr[title] {
+    border-bottom: 0px dotted;
+    text-decoration: none;
+}
 
 p::-moz-selection { background-color:#ffb153; color: #fff; }
 p::selection { background-color:#ffb153; color: #fff; }
@@ -40,9 +44,6 @@ p::selection { background-color:#ffb153; color: #fff; }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: #ffb153;
     background-color: transparent;
-}
-.container{
-    margin-bottom: 80px;
 }
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 400px) {
@@ -118,16 +119,12 @@ p::selection { background-color:#ffb153; color: #fff; }
     background-color: #fafafa;
     border-color: #ff900a;
 }
-
 .footer{
-    margin: 20px 0px 0px 0px;
-    padding: 10px 0px 10px 0px;
     font-size: 12px;
     background: #f1f1f1;
-    position: fixed;
-    bottom: 0px;
     width: 100%;
     text-align: center;
+    padding: 10px 0px 10px 0px;
 }
 .footer-links {
     list-style-type: none;

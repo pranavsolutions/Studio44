@@ -1,5 +1,5 @@
 /*************************************/
-/***************Font Size***************/
+/***************Typography***************/
 /*************************************/
 /*Font Size*/
 .fs-xs{
@@ -17,6 +17,18 @@
 .fs-xl{
     font-size: 24px;
 }
+/*Font Weight*/
+.fw-bd{
+    font-weight: bold;
+}
+.fw-100{
+    font-weight: 100;
+}
+/*Text Decoration*/
+.td-lt{
+    text-decoration: line-through;
+}
+
 
 /*************************************/
 /***************Visibility***************/
