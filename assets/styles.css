@@ -304,3 +304,6 @@ p::selection { background-color:#ffb153; color: #fff; }
 #sticky-social a[class*="gplus"],
 #sticky-social a[class*="gplus"]:hover,
 #sticky-social a[class*="gplus"] span { background: #ff900a; }  
+.panel-footer {
+    background-color: #fff;
+}
