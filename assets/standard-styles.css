@@ -28,6 +28,12 @@
 .td-lt{
     text-decoration: line-through;
 }
+.td-no{
+    text-decoration: none;
+}
+.td-no:hover{
+    text-decoration: none;
+}
 
 
 /*************************************/
