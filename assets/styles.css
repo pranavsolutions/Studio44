@@ -85,6 +85,8 @@ p::selection { background-color:#ffb153; color: #fff; }
     padding: 20px 0px 40px 0px;
     background: radial-gradient(circle farthest-side,#52c8e6,#098fa8);
     text-align: center;
+    color: #fff;
+    font-size: 16px;
 }
 .call-to-action h1,
 .call-to-action h2,
@@ -94,6 +96,10 @@ p::selection { background-color:#ffb153; color: #fff; }
 .call-to-action h6{
     color: #fff;
 }
+.call-to-action a{
+    color: #fff;
+}
+
 .user-reviews{
     padding: 40px 0 40px 0;
     text-align: center;
