@@ -35,6 +35,20 @@
     text-decoration: none;
 }
 
+/*Text Align*/
+.ta-r{
+    text-align: right;
+}
+.ta-l{
+    text-align: left;
+}
+.ta-c{
+    text-align: center;
+}
+.ta-j{
+    text-align: justify;
+}
+
 
 /*************************************/
 /***************Visibility***************/
